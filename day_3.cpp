@@ -121,8 +121,7 @@ int solve(vector<string> inputs){
 int main()
 {
 	string line;
-	// ifstream myfile("3_input.txt");
-	ifstream myfile("3_test.txt");
+	ifstream myfile("3_input.txt");
 	vector<string> inputs;
 
 	if (myfile.is_open())
